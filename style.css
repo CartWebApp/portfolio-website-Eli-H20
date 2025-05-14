@@ -84,6 +84,16 @@ h1 {
     background-color: rgb(0, 0, 0, 30%);
 }
 
+.sidebarpe {
+    display: flex;
+    flex-direction: column;
+    border-right: rgb(255, 255, 255) 1px solid;
+    min-width: 50vh;
+    max-width: 50vh;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 30%);
+}
+
 .topbar {
     display: flex;
     font-size: 3vh;
@@ -466,4 +476,54 @@ a:hover {
 
 .biga {
     width: 50%;
+}
+
+.boax {
+    margin-top: 5vh;
+    font-size: 1.1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    max-width: 20vw;
+    background-color: rgb(0, 0, 0, 30%);
+    padding: 1vh 1vw;
+}
+
+.im1pei {
+    width: 20vw;
+    height: 40vh;
+    margin-top: 7vh;
+    margin-left: 13vw;
+}
+
+.im2pei {
+    width: 20vw;
+    height: 40vh;
+    margin-top: 7vh;
+    margin-right: 13vw;
+}
+
+.im3pei {
+    width: 20vw;
+    height: 40vh;
+    margin-top: 5vh;
+}
+
+.centpe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.im3pe {
+    display: flex;
+    justify-content: center;
 }
